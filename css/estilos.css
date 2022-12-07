@@ -10,7 +10,7 @@ h1, h3, h2, h4{
 }
 a:not(.button), a:not(.button):hover, a:not(.button):focus, a:not(.button):visited, i, em
 {
-    color: inherit;
+    color:inherit;
 }
 a, a:hover, a:focus, a:visited, i
 {
@@ -108,6 +108,19 @@ justify-content: center;
 .productos{
     text-align: center;
 }
+/*carrusel*/
+
+.carousel-inner{
+    width: 100%;
+    height:60vh;
+    }
+
+    .carousel-item img{
+   
+    height:70vh;
+    }
+
+
 
 
 /*Cards*/
@@ -228,7 +241,7 @@ footer h2 {
 
 .footer-top {
   background: #202122;
-  padding: 80px 0;
+  padding: 10px 0;
 }
 
 .segment-one h3 {
@@ -369,9 +382,19 @@ footer h2 {
         border: 2px rgb(0, 0, 0) solid;
         padding: 1%;
     }
-    .d-sm-block {
+    .d-sm-block {display: block!important;
     }
-    display: block!important;
+
+    /*carrusel*/
+    .carousel-inner{
+        width: 100%;
+        height:60vh;
+        }
+    
+        .carousel-item img{
+       
+        height:70vh;
+        }
     /*  Card  */
     .card{
         width: 70%;
@@ -444,4 +467,13 @@ footer h2 {
     font-weight: 400;
 }
 
+ /*carrusel*/
+ .carousel-inner{
+    width: 100%;
+    height:60vh;
+    }
 
+    .carousel-item img{
+   
+    height:70vh;
+    }

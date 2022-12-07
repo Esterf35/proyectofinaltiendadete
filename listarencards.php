@@ -41,7 +41,7 @@
            
                 <a href="listarencards.php">Catalogo</a>
                 <a href="tepuros.php">te</a>
-                <a href="Infusiones.php">Infusiones herbales</a>
+                <a href="infusiones.php">Infusiones herbales</a>
                 <a href="accesorios.php">Accesorios</a>
                
             </div>
@@ -86,11 +86,7 @@
               <h3 class="card-title" style="width: 100%; font-size:25px;"><?php echo ucwords($reg['gramos']) ?></h3>
               <span>$ <?php echo $reg['precio']; ?></span>
             </div>
-            <div class="mpago">
-              <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-              data-preference-id="114370433-60fe9e42-4905-4c65-99a9-aec04e3fd6e6" data-source="button">
-              </script>
-            </div>
+          
           </div>
 
         <?php } ?>
